@@ -1,0 +1,23 @@
+<!doctype html>
+<html lang="fr">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Horloge Hello</title>
+  <style>
+    body { font-family: system-ui, sans-serif; display: grid; place-items: center; min-height: 100vh; margin: 0; background: #f5f5f0; color: #222; }
+    main { text-align: center; }
+    #heure { font-size: 4rem; font-variant-numeric: tabular-nums; margin: 0 0 1rem; }
+    button { font-size: 1.2rem; padding: .6rem 1.4rem; cursor: pointer; }
+    #message { min-height: 2rem; font-size: 1.5rem; margin-top: 1rem; }
+  </style>
+</head>
+<body>
+  <main>
+    <p id="heure">--:--:--</p>
+    <button id="bouton" type="button">Dire bonjour</button>
+    <p id="message" aria-live="polite"></p>
+  </main>
+  <script src="horloge.js"></script>
+</body>
+</html>

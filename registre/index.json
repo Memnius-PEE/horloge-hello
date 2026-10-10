@@ -3,8 +3,8 @@
   "projet": "horloge-hello",
   "titre": "Horloge Hello",
   "comptes": {
-    "decision": 1,
-    "code": 0,
+    "decision": 2,
+    "code": 1,
     "donnees": 0,
     "sources": 0
   },
@@ -25,6 +25,45 @@
       "origine": [
         "humain"
       ]
+    },
+    {
+      "type": "decision",
+      "id": "decisions/0002",
+      "fichier": "registre/decisions/0002-page-statique-sans-dependance.md",
+      "titre": "0002 — Page statique sans dépendance",
+      "resume": "La page est un simple fichier HTML et un script JavaScript, sans bibliothèque ni étape de construction : elle s'ouvre directement dans un navigateur et sert à éprouver le kit Memnius de bout en bout.",
+      "ou": [
+        "registre/decisions/0002-page-statique-sans-dependance.md"
+      ],
+      "auteurs": [
+        "Pwouette"
+      ],
+      "date": "2026-10-11",
+      "origine": [
+        "humain"
+      ]
+    },
+    {
+      "type": "code",
+      "id": "code/page-horloge",
+      "fichier": "registre/code/page-horloge.md",
+      "titre": "Page horloge et Hello world",
+      "resume": "Page web statique qui affiche l'heure locale, mise à jour chaque seconde, et écrit « Hello world » quand on clique sur le bouton.",
+      "ou": [
+        "site/index.html",
+        "site/horloge.js"
+      ],
+      "auteurs": [
+        "Pwouette"
+      ],
+      "commande": "ouvrir site/index.html dans un navigateur",
+      "date": "2026-10-11",
+      "langage": "javascript",
+      "liens": [
+        "decisions/0002"
+      ],
+      "mots_cles": [],
+      "statut": "a-relire"
     }
   ]
 }
