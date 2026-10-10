@@ -1,0 +1,11 @@
+# 0001 — Adopter le socle commun Memnius v2
+
+- Date : 2026-10-11
+- Origine : [humain] entrée du projet dans le socle commun, demandée par son mainteneur
+- Décidé par : @Pwouette
+- Options écartées : —
+- Source : socle Memnius-PEE/registre v2, fichiers créés par « memnius.py init »
+- Remplace : —
+
+Le projet suit les règles et les gardes A1–A7 du socle v2, ainsi que les options déclarées dans
+`memnius.yaml` (`socle.options`).
