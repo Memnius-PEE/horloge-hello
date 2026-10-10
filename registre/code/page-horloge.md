@@ -12,5 +12,11 @@ langage: javascript
 commande: ouvrir site/index.html dans un navigateur
 ---
 
+<!-- memnius:liens : bloc généré par « memnius.py index », ne pas éditer -->
+- **Où :** [`site/index.html`](../../site/index.html) · [`site/horloge.js`](../../site/horloge.js)
+- **Liens :** [decisions/0002](../decisions/0002-page-statique-sans-dependance.md)
+
+<!-- /memnius:liens -->
+
 Ouvrir `site/index.html` dans un navigateur, sans serveur. L'heure suit le fuseau de l'ordinateur.
 Limite : pas encore publiée en ligne (GitHub Pages non activé).
