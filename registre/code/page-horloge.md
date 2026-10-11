@@ -13,7 +13,7 @@ commande: ouvrir site/index.html dans un navigateur
 ---
 
 <!-- memnius:liens : bloc généré par « memnius.py index », ne pas éditer -->
-- **Où :** [`site/index.html`](../../site/index.html) · [`site/horloge.js`](../../site/horloge.js)
+- **Où :** [`site/index.html`](../../site/index.html) · [`site/horloge.js`](../../site/horloge.js) · [memnius-pee.github.io](https://memnius-pee.github.io/horloge-hello/)
 - **Liens :** [decisions/0002](../decisions/0002-page-statique-sans-dependance.md)
 
 <!-- /memnius:liens -->

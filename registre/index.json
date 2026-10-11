@@ -3,7 +3,7 @@
   "projet": "horloge-hello",
   "titre": "Horloge Hello",
   "comptes": {
-    "decision": 2,
+    "decision": 3,
     "code": 1,
     "donnees": 0,
     "sources": 0
@@ -44,6 +44,23 @@
       ]
     },
     {
+      "type": "decision",
+      "id": "decisions/0003",
+      "fichier": "registre/decisions/0003-publier-avec-github-pages.md",
+      "titre": "0003 — Publier la page avec GitHub Pages",
+      "resume": "Le dossier `site/` est publié sur GitHub Pages par le workflow `.github/workflows/pages.yml`, à chaque fusion dans `main` qui le touche : <https://memnius-pee.github.io/horloge-hello/>. Le projet passe aussi au workflow des gardes de la décision 0019 du socle (index poussé par la clé de déploiement…",
+      "ou": [
+        "registre/decisions/0003-publier-avec-github-pages.md"
+      ],
+      "auteurs": [
+        "Pwouette"
+      ],
+      "date": "2026-10-11",
+      "origine": [
+        "choix"
+      ]
+    },
+    {
       "type": "code",
       "id": "code/page-horloge",
       "fichier": "registre/code/page-horloge.md",
@@ -51,7 +68,8 @@
       "resume": "Page web statique qui affiche l'heure locale, mise à jour chaque seconde, et écrit « Hello world » quand on clique sur le bouton.",
       "ou": [
         "site/index.html",
-        "site/horloge.js"
+        "site/horloge.js",
+        "https://memnius-pee.github.io/horloge-hello/"
       ],
       "auteurs": [
         "Pwouette"
