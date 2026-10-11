@@ -2,7 +2,7 @@
 titre: Page horloge et Hello world
 resume: >-
   Page web statique qui affiche l'heure locale, mise à jour chaque seconde, et écrit « Hello world » quand on clique sur le bouton.
-ou: [site/index.html, site/horloge.js]                     # chemin dans le dépôt, https://… ou drive:/…
+ou: [site/index.html, site/horloge.js, https://memnius-pee.github.io/horloge-hello/]                     # chemin dans le dépôt, https://… ou drive:/…
 auteurs: [Pwouette]           # identifiants GitHub de qui l'a écrit
 date: 2026-10-11
 statut: a-relire               # brouillon | a-relire | valide | obsolete
@@ -13,10 +13,10 @@ commande: ouvrir site/index.html dans un navigateur
 ---
 
 <!-- memnius:liens : bloc généré par « memnius.py index », ne pas éditer -->
-- **Où :** [`site/index.html`](../../site/index.html) · [`site/horloge.js`](../../site/horloge.js)
+- **Où :** [`site/index.html`](../../site/index.html) · [`site/horloge.js`](../../site/horloge.js) · [memnius-pee.github.io](https://memnius-pee.github.io/horloge-hello/)
 - **Liens :** [decisions/0002](../decisions/0002-page-statique-sans-dependance.md)
 
 <!-- /memnius:liens -->
 
 Ouvrir `site/index.html` dans un navigateur, sans serveur. L'heure suit le fuseau de l'ordinateur.
-Limite : pas encore publiée en ligne (GitHub Pages non activé).
+En ligne : <https://memnius-pee.github.io/horloge-hello/>, republiée par le workflow `pages.yml` à chaque fusion qui touche `site/`.
