@@ -12,4 +12,10 @@ format: note
 # doi: 10.…                      # (facultatif) si le document est publié
 ---
 
+<!-- memnius:liens : bloc généré par « memnius.py index », ne pas éditer -->
+- **Où :** [`docs/mode-d-emploi.md`](../../docs/mode-d-emploi.md)
+- **Liens :** [code/page-horloge](../code/page-horloge.md)
+
+<!-- /memnius:liens -->
+
 Carte de test du type `documents` (décision 0021 du socle).

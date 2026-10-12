@@ -2,7 +2,7 @@
 
 _Généré par `memnius.py index` à partir des cartes de `registre/` et du journal `registre/decisions/`. Ne pas éditer : modifier ou ajouter une carte, puis relancer l'outil._
 
-4 cartes : 3 décisions, 1 code, 0 données, 0 source.
+5 cartes : 3 décisions, 1 code, 0 données, 0 source, 1 document.
 
 ## Décisions
 
@@ -26,6 +26,12 @@ _Aucune carte pour l'instant._
 
 _Aucune carte pour l'instant._
 
+## Documents
+
+| Carte | Résumé | Qui | Où | Date |
+|---|---|---|---|---|
+| [Mode d'emploi de la page](documents/mode-d-emploi.md) (à relire) | Explique en trois étapes comment ouvrir la page et ce qu'elle fait, pour quelqu'un qui découvre le projet. | @Pwouette | [`docs/mode-d-emploi.md`](../docs/mode-d-emploi.md) | 2026-10-12 |
+
 ## Qui a fait quoi
 
-- **@Pwouette** : décisions [0001](decisions/0001-adopter-le-socle.md), [0002](decisions/0002-page-statique-sans-dependance.md), [0003](decisions/0003-publier-avec-github-pages.md) ; code [page-horloge](code/page-horloge.md)
+- **@Pwouette** : décisions [0001](decisions/0001-adopter-le-socle.md), [0002](decisions/0002-page-statique-sans-dependance.md), [0003](decisions/0003-publier-avec-github-pages.md) ; code [page-horloge](code/page-horloge.md) ; documents [mode-d-emploi](documents/mode-d-emploi.md)

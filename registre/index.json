@@ -6,7 +6,8 @@
     "decision": 3,
     "code": 1,
     "donnees": 0,
-    "sources": 0
+    "sources": 0,
+    "documents": 1
   },
   "cartes": [
     {
@@ -79,6 +80,26 @@
       "langage": "javascript",
       "liens": [
         "decisions/0002"
+      ],
+      "mots_cles": [],
+      "statut": "a-relire"
+    },
+    {
+      "type": "documents",
+      "id": "documents/mode-d-emploi",
+      "fichier": "registre/documents/mode-d-emploi.md",
+      "titre": "Mode d'emploi de la page",
+      "resume": "Explique en trois étapes comment ouvrir la page et ce qu'elle fait, pour quelqu'un qui découvre le projet.",
+      "ou": [
+        "docs/mode-d-emploi.md"
+      ],
+      "auteurs": [
+        "Pwouette"
+      ],
+      "date": "2026-10-12",
+      "format": "note",
+      "liens": [
+        "code/page-horloge"
       ],
       "mots_cles": [],
       "statut": "a-relire"
